@@ -76,7 +76,6 @@ typedef unsigned int        UINT;
 typedef uint64 Key;
 
 #define XMM_ALIGN __declspec(align(16))
-#include <intrin.h>
 #define Bitboard __m128i
 #define TRUE   1
 #define FALSE  0
