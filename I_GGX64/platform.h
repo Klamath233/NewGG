@@ -66,6 +66,11 @@ typedef uint32_t uint32;
 typedef int64_t  sint64;
 typedef uint64_t uint64;
 
+typedef char       __int8;
+typedef short      __int16;
+typedef int        __int32;
+typedef long long  __int64;
+
 typedef int                 BOOL;
 typedef unsigned char       BYTE;
 typedef unsigned short      WORD;
