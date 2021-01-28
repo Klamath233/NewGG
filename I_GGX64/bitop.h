@@ -3,7 +3,7 @@
 
 #ifdef _MSC_VER
 #else
-    static INLINE unsigned char _BitScanForward64(unsigned long* Index, U64 Mask)
+    static __inline unsigned char _BitScanForward64(unsigned long* Index, unsigned long long Mask)
     {
         U64 Ret;
         __asm__
@@ -15,7 +15,7 @@
         *Index = (unsigned long)Ret;
         return Mask?1:0;
     }
-    static INLINE unsigned char _BitScanReverse64(unsigned long* Index, U64 Mask)
+    static __inline unsigned char _BitScanReverse64(unsigned long* Index, unsigned long long Mask)
     {
         U64 Ret;
         __asm__
