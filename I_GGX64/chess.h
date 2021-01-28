@@ -48,6 +48,7 @@
 #define NOT_USE_FIND_MUL
 //////////////////////////////////////////////////////////////////////////
 
+#include "platform.h"
 #include "types.h"
 #include "Config.h"
 #include "my_data.h"   // ok
