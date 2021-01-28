@@ -57,8 +57,8 @@
 #include "position.h"
 #include "evaluate.h"
 #include "funzione.h"  
-#include "VMProtectSDK.h"
-#include "WMI_DeviceQuery.h"
+// #include "VMProtectSDK.h"
+// #include "WMI_DeviceQuery.h"
 
 #endif
 
