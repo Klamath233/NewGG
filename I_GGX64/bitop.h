@@ -5,7 +5,7 @@
 #else
     static __inline unsigned char _BitScanForward64(unsigned long* Index, unsigned long long Mask)
     {
-        U64 Ret;
+        unsigned long long Ret;
         __asm__
         (
             "bsfq %[Mask], %[Ret]"
@@ -17,7 +17,7 @@
     }
     static __inline unsigned char _BitScanReverse64(unsigned long* Index, unsigned long long Mask)
     {
-        U64 Ret;
+        unsigned long long Ret;
         __asm__
         (
             "bsrq %[Mask], %[Ret]"
