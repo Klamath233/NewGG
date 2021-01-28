@@ -2,7 +2,6 @@
 #define S_MY_DATA_CHESS_H
 
 //#include "s_value.h"
-#include "dbstl_common.h"
 
 extern MARR_t *MARR;
 extern premat_t PreMatInfo[6][6][3][3][3][3][3][3];
