@@ -423,10 +423,7 @@ bool ccmd(Position& pos, istringstream& uip){
 	return true;
 }
 
-
-
-
-
+#ifdef _MSC_VER
 
 #include <io.h>
 #include <fcntl.h>
@@ -502,6 +499,11 @@ void read_uci_set_file(){
 	}
 }
 
+#else
 
+void read_uci_set_file() {
+	
+}
 
+#endif
 
