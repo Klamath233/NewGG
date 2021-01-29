@@ -19,12 +19,9 @@
 #include "notation.h"
 #include "search.h"
 #include "uci.h"
-#include "uci.h"
-#include <windows.h>
 #include "thread.h"
 #include "timeman.h"
 #include "tt.h"
-#include "VMP.h"
 
 
 #pragma warning(disable : 4239)  
