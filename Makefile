@@ -22,6 +22,9 @@ newgg: $(objs)
 %.o: %.cpp
 	$(CXX) $(CCFLAGS) -o $@ -c $<
 
+%.o: %.c
+	$(CXX) $(CCFLAGS) -o $@ -c $<
+
 .PHONY: clean
 clean:
 	find . -name "*.o" -exec rm \{} \;

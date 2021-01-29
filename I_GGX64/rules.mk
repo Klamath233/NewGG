@@ -11,3 +11,6 @@ objs += I_GGX64/position.o
 objs += I_GGX64/tt.o
 objs += I_GGX64/timeman.o
 objs += I_GGX64/pos_pin_att.o
+objs += I_GGX64/pos_fen.o
+objs += I_GGX64/misc.o
+objs += I_GGX64/platform.o
