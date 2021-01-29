@@ -5,14 +5,12 @@ SRC_DIR := I_GGX64
 
 INCLUDE_PATHS += -I$(PWD)/I_GGX64 -I$(PWD)/endgame
 COMMON_DEFS += $(INCLUDE_PATHS)
-CCFLAGS += -stdlib=libc++ -msse4.2 $(COMMON_DEFS)
+CCFLAGS += -stdlib=libc++ -msse -msse2 -msse3 -msse4.1 -msse4.2 $(COMMON_DEFS)
 LDFLAGS += -lc++ -lpthread
 
 objs :=
 
 include $(SRC_DIR)/rules.mk
-
-$(info $(objs))
 
 all: newgg
 
