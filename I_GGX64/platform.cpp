@@ -1,4 +1,4 @@
-#include <platform.h>
+#include "platform.h"
 
 #ifdef WIN32
 #include <windows.h>

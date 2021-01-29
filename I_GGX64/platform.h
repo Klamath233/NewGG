@@ -159,6 +159,6 @@ inline DWORD* dwWin9xKludge() { static DWORD dw; return &dw; }
 
 #endif
 
-extern "C" void sleep_ms(int milliseconds);
+void sleep_ms(int milliseconds);
 
 #endif // #ifndef PLATFORM_H_INCLUDED
