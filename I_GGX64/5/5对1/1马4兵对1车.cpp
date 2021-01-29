@@ -3,7 +3,7 @@
 #include "../../chess.h"
 #include "../../preGen.h"
  
-#include "../../endgame\mat.h"
+#include "../../endgame/mat.h"
 #include "1马4兵对1车.cpp"
 #include "../../white.h"
 #else
@@ -13,7 +13,7 @@
 //#include "../../chess.h"
 //#include "../../preGen.h"
 //
-//#include "../../endgame\mat.h"
+//#include "../../endgame/mat.h"
 //
 // void m_MT_B_1CHE_R_1MA(board_t *board);
 // void my_m_MT_R_1CHE_B_1MA(board_t *board);

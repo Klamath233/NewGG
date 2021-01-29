@@ -3,7 +3,7 @@
 #include "../../chess.h"
 #include "../../preGen.h"
  
-#include "../../endgame\mat.h"
+#include "../../endgame/mat.h"
 #include "2车1炮2兵对2车1炮.cpp"
 #include "../../white.h"
 #else

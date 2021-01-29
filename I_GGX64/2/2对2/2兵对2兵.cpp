@@ -2,7 +2,7 @@
 #include "../../chess.h"
 #include "../../preGen.h"
 
-#include "../../endgame\mat.h"
+#include "../../endgame/mat.h"
 
 //二兵对二兵
 void m_MT_2pawn_TO_2pawn(typePOS &POSITION, EvalInfo &ei){

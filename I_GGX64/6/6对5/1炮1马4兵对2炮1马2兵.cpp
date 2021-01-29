@@ -4,7 +4,7 @@
 #include "../../chess.h"
 #include "../../preGen.h"
 
-#include "../../endgame\mat.h"
+#include "../../endgame/mat.h"
 #include "1炮1马4兵对2炮1马2兵.cpp"
 #include "../../white.h"
 #else

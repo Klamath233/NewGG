@@ -2,7 +2,7 @@
 #include "../chess.h"
  
  
-#include "../endgame\mat.h"
+#include "../endgame/mat.h"
 
 
 void InitMatFunction(void){	

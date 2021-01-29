@@ -2,7 +2,7 @@
 #include "../../chess.h"
 #include "../../preGen.h"
 
-#include "../../endgame\mat.h"
+#include "../../endgame/mat.h"
 
 void m_MT_BR_2che1ma1pawn(typePOS &POSITION, EvalInfo &ei){
 

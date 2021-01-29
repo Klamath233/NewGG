@@ -2,7 +2,7 @@
 #define END_my_m_MT_R_2che1pawn_B_2che
 #include "../../chess.h"
 #include "../../preGen.h"
-#include "../../endgame\mat.h"
+#include "../../endgame/mat.h"
 #include "2车1兵对2车.cpp"
 #include "../../white.h"
 #else
