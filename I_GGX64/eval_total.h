@@ -13,3 +13,5 @@
 
 template<Color Us> Score eval_king_up_one_string(Position& pos, EvalInfo& ei);
 template<Color Us> int PawnOverRiver(Position& pos, EvalInfo& ei);
+template<Color Us> Score eval_zhou_and_moveless(Position& pos, EvalInfo& ei, 
+	Square mid, PieceType XPiece, Square xPos);
