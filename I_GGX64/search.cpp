@@ -158,6 +158,18 @@ namespace {
 
 } // namespace
 
+//R_HAVE_enoughMaterial
+static bool non_pawn_material(const Position& pos) {
+	return (pos.pMatinfo()->searchInfo8 & HAVE_NONE_PAWN_MATERAIL);
+}
+
+//static bool ok_to_do_nullmove(const Position& pos) {
+//	return (pos.pMatinfo()->searchInfo8 & HAVE_enoughMaterial);
+//}
+
+static bool have_CK_5000_Material(const Position& pos) {
+	return (pos.pMatinfo()->searchInfo8 & CK_5000_Material);
+}
 
 /// init_search() is called during startup to initialize various lookup tables
 
@@ -1766,20 +1778,6 @@ return;
 */
 
 
-//////////////////////////////////////////////////////////////////////////
-//R_HAVE_enoughMaterial
-bool non_pawn_material(const Position& pos) {
-	return (pos.pMatinfo()->searchInfo8 & HAVE_NONE_PAWN_MATERAIL);
-}
-//////////////////////////////////////////////////////////////////////////
-
-//bool ok_to_do_nullmove(const Position& pos) {
-//	return (pos.pMatinfo()->searchInfo8 & HAVE_enoughMaterial);
-//}
-
-bool have_CK_5000_Material(const Position& pos) {
-	return (pos.pMatinfo()->searchInfo8 & CK_5000_Material);
-}
 
 
 
