@@ -1688,7 +1688,7 @@ bool Search::Is_Have_Book_Move(Position& pos, RootMoves& rootMoves) {
 
 		Move bm = book_move[ra];
 
-		Sleep(300);
+		sleep_ms(300);
 
 		sync_cout << "info multipv " << 1
 
@@ -1699,7 +1699,7 @@ bool Search::Is_Have_Book_Move(Position& pos, RootMoves& rootMoves) {
 			<< " nps " << 800
 			<< " pv" << " " << UCI::move(bm) << sync_endl;
 
-		Sleep(400);
+		sleep_ms(400);
 
 		sync_cout << "bestmove " << UCI::move(bm);
 

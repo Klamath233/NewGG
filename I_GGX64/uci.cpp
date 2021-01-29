@@ -10,7 +10,7 @@
 #include <sstream>
 #include <string>
 
-
+#include "platform.h"
 #include "evaluate.h"
 #include "misc.h"
 #include "move.h"
@@ -334,7 +334,7 @@ bool ccmd(Position& pos, istringstream& uip){
 					uip >> token;
 				}
 
-				Sleep(DELEY_BEST_MOVE_TIME);
+				sleep_ms(DELEY_BEST_MOVE_TIME);
 				std::cout << "bestmove " << token << std::endl;
 				return true;
 			}
