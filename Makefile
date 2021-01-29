@@ -5,8 +5,8 @@ SRC_DIR := I_GGX64
 
 INCLUDE_PATHS += -I$(PWD)/I_GGX64 -I$(PWD)/endgame
 COMMON_DEFS += $(INCLUDE_PATHS)
-CCFLAGS += -msse4.2 $(COMMON_DEFS)
-LDFLAGS += -lstdc++
+CCFLAGS += stdlib=libc++ -msse4.2 $(COMMON_DEFS)
+LDFLAGS += -lc++
 
 objs :=
 
@@ -17,7 +17,7 @@ $(info $(objs))
 all: newgg
 
 newgg: $(objs)
-	$(LD) $^ $(LDFLAGS) -o $@
+	$(CXX) $^ -o $@ $(LDFLAGS)
 
 %.o: %.cpp
 	$(CXX) $(CCFLAGS) -o $@ -c $<
