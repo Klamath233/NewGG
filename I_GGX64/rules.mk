@@ -1432,6 +1432,5 @@ objs += $(PREFIX)/ucioption.o
 objs += $(PREFIX)/弱子评估.o
 objs += $(PREFIX)/抽将与牵制.o
 objs += $(PREFIX)/王的安全.o
-objs += $(PREFIX)/硬件信息.o
 objs += $(PREFIX)/第1次_棋子.o
 objs += $(PREFIX)/第2次_棋子.o
