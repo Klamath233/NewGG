@@ -18,3 +18,6 @@ objs += I_GGX64/evation.o
 objs += I_GGX64/evation_init.o
 objs += I_GGX64/movepick.o
 objs += I_GGX64/pos_see.o
+objs += I_GGX64/pos_move.o
+objs += I_GGX64/pos_mate.o
+objs += I_GGX64/pos_test.o
