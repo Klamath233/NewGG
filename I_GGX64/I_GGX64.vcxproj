@@ -1727,7 +1727,7 @@
     <ClCompile Include="fen_eval_test.cpp" />
     <ClCompile Include="open_book.cpp" />
     <ClCompile Include="pawns.cpp" />
-    <ClCompile Include="platform.c" />
+    <ClCompile Include="platform.cpp" />
     <ClCompile Include="thread.cpp" />
     <ClCompile Include="timeman.cpp" />
     <ClCompile Include="Um128_find_mul.cpp" />
