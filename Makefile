@@ -19,7 +19,7 @@ all: newgg
 newgg: $(objs)
 	$(LD) $^ $(LDFLAGS) -o $@
 
-%.o: %.cpp:
+%.o: %.cpp
 	$(CXX) $(CCFLAGS) -o $@ -c $<
 
 .PHONY: clean
