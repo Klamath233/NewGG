@@ -2,7 +2,6 @@ PREFIX := I_GGX64
 
 objs+= $(PREFIX)/pos_move.o
 objs+= $(PREFIX)/Um128_find_mul.o
-objs+= $(PREFIX)/qsearch.o
 objs+= $(PREFIX)/move.o
 objs+= $(PREFIX)/pos_mate.o
 objs+= $(PREFIX)/init_eval_const.o
@@ -104,7 +103,6 @@ objs+= $(PREFIX)/eval_kong_zhong_di_pao.o
 objs+= $(PREFIX)/VMP.o
 objs+= $(PREFIX)/pos_gen_cap_not_include_kingPawn.o
 objs+= $(PREFIX)/s_pos_位置分.o
-objs+= $(PREFIX)/qsearch_pv.o
 objs+= $(PREFIX)/piece.o
 objs+= $(PREFIX)/application.o
 objs+= $(PREFIX)/s_see_draw_by_last_move.o
