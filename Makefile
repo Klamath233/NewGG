@@ -5,7 +5,7 @@ SRC_DIR := I_GGX64
 
 INCLUDE_PATHS += -I$(PWD)/I_GGX64 -I$(PWD)/endgame
 COMMON_DEFS += $(INCLUDE_PATHS)
-CCFLAGS += stdlib=libc++ -msse4.2 $(COMMON_DEFS)
+CCFLAGS += -stdlib=libc++ -msse4.2 $(COMMON_DEFS)
 LDFLAGS += -lc++
 
 objs :=
