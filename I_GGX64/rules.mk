@@ -4,7 +4,6 @@ objs+= $(PREFIX)/pos_move.o
 objs+= $(PREFIX)/Um128_find_mul.o
 objs+= $(PREFIX)/move.o
 objs+= $(PREFIX)/pos_mate.o
-objs+= $(PREFIX)/Is_repeat.o
 objs+= $(PREFIX)/control.o
 objs+= $(PREFIX)/move_undo_test.o
 objs+= $(PREFIX)/main.o
